@@ -1,0 +1,124 @@
+body{
+    font-family: serif;
+}
+body header{
+    background-color: #fff!important;
+    height: 85px;
+    width: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    text-align: center;
+}
+body header div.logo{
+    height: 45px;
+    width: 90px;
+    padding-top: 20px;
+}
+body header div.logo a.logo{
+    height: 45px;
+    text-decoration: none;
+    background-color: transparent;
+}
+body header div.logo a.logo img.imgLogo{
+    height: 25px;
+    width: 90px;
+}
+body header div.menu{
+    height: 45px;
+    width: 910px;
+    padding-top: 20px;
+}
+body header div.menu div.menuUl{
+    width: 480px;
+    margin: auto;
+}
+body header div.menu div.menuUl ul.menu{
+    list-style: none;
+    display: flex;
+}
+body header div.menu div.menuUl li.landingsLi{
+    display: list-item;
+    float: left;
+    position: relative;
+}
+body header div.menu div.menuUl li.landingsLi a.landingsA{
+    color: #506690;
+    text-decoration: none;
+    background-color: transparent;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: block;
+}
+body header div.menu div.menuUl li.landingsLi div.conLandingsA{
+    width: 672px;
+    height: 294px;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    display: none;
+    float: none;
+}
+body header div.menu div.menuUl li.landingsLi:hover > body header div.menu div.menuUl li.landingsLi div.conLandingsA{
+    display: block;
+}
+body header div.menu div.menuUl > div.conLandingsA{
+    display: block;
+    clear: both;
+    content: "";
+}
+body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conLeftLandingsA{
+    width: 336px;
+    height: 294px;
+    background-image: url(./img/img1.jpg);
+}
+body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conLeftLandingsA div.insideConLeftLandingA{
+    width: 256px;
+    height: 218px;
+    padding: 2.375rem 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conLeftLandingsA div.insideConLeftLandingA h4{
+    padding-top: 40px;
+}
+body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conLeftLandingsA div.insideConLeftLandingA a{
+    text-decoration: none;
+    border-color: transparent;
+    background-color: #fff;
+    color: #335eea;
+    text-align: center;
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin-left: 25px;
+    padding-top: 10px;
+    border: 1px solid transparent;
+}
+body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conRightLandingsA{
+    width: 336px;
+}
+body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conRightLandingsA div.insideConRightLindingsA{
+    display: flex;
+}
+body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conRightLandingsA div.insideConRightLindingsA div.leftInsideConRightLindingsA{
+    width: 168px;
+    text-align: center;
+}
+body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conRightLandingsA div.insideConRightLindingsA div.rightInsideConRightLindingsA{
+    width: 168px;
+    text-align: center;
+}
+body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conRightLandingsA div.insideConRightLindingsA div.leftInsideConRightLindingsA a{
+    text-decoration: none;
+}
+body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conRightLandingsA div.insideConRightLindingsA div.rightInsideConRightLindingsA a{
+    text-decoration: none;
+}
+
+
+
+body header div.menu div.menuUl li.pagesLi{
+    list-style: none;
+    display: flex;
+}
+
