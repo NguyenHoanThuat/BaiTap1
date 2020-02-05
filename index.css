@@ -1,124 +1,225 @@
 body{
     font-family: serif;
 }
-body header{
-    background-color: #fff!important;
-    height: 85px;
+body .welcome{
+    height: 420px;
+    
+}   
+body .welcome .welcomeCon{
     width: 1000px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+}
+body .welcome .welcomeCon .welcomeCCon{
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-body header div.logo{
-    height: 45px;
-    width: 90px;
-    padding-top: 20px;
+body .welcome .welcomeCon .welcomeCCon .textWelcome{
+    width: 50%;
 }
-body header div.logo a.logo{
-    height: 45px;
+body .welcome .welcomeCon .welcomeCCon .textWelcome h1{
+    text-align: left;
+    font-size: 3rem;
+}
+body .welcome .welcomeCon .welcomeCCon .textWelcome h1 span{
+    color: #335eea;
+}
+body .welcome .welcomeCon .welcomeCCon .textWelcome p{
+    font-size: 1.4rem;
+    color: #869ab8;
+    padding-bottom: 20px;
+}
+body .welcome .welcomeCon .welcomeCCon .textWelcome .buttonWelcome{
+    height: 55px;
+    text-align: left;
+}
+body .welcome .welcomeCon .welcomeCCon .textWelcome .buttonWelcome a.viewWelcome{
+    background-color: #335eea;
+    color: white;
+    height: 27px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid transparent;
+    font-size: 1.1rem;
+    border-radius: 0.375rem;
+    margin-right: 10px;
+}
+body .welcome .welcomeCon .welcomeCCon .textWelcome .buttonWelcome a.documenWelcome{
+    background-color: rgba(51,94,234,.1);
+    color: #335eea;
+    height: 27px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid transparent;
+    font-size: 1.1rem;
+    border-radius: 0.375rem;
+    
+}
+a{
     text-decoration: none;
-    background-color: transparent;
 }
-body header div.logo a.logo img.imgLogo{
-    height: 25px;
-    width: 90px;
+body .welcome .welcomeCon .welcomeCCon .imgWelcomeRight{
+    width: 50%;
+    height: 420px;
 }
-body header div.menu{
-    height: 45px;
-    width: 910px;
-    padding-top: 20px;
+
+
+body .iconText{
+    height: 180px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #f1f4f8;
 }
-body header div.menu div.menuUl{
-    width: 480px;
+body .iconText .iconTextCon{
+    width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: auto;
 }
-body header div.menu div.menuUl ul.menu{
-    list-style: none;
+body .iconText .iconTextCon .iconTextCCon{
     display: flex;
 }
-body header div.menu div.menuUl li.landingsLi{
-    display: list-item;
-    float: left;
-    position: relative;
+body .iconText .iconTextCon .iconTextCCon .iconTextCCon1{
+    width: 305px;
+    margin-right: 10px;
 }
-body header div.menu div.menuUl li.landingsLi a.landingsA{
-    color: #506690;
-    text-decoration: none;
-    background-color: transparent;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    display: block;
+body .iconText .iconTextCon .iconTextCCon .iconTextCCon1 h3{
+    font-size: 1.3125rem;;
 }
-body header div.menu div.menuUl li.landingsLi div.conLandingsA{
-    width: 672px;
-    height: 294px;
-    background-color: #fff;
+body .iconText .iconTextCon .iconTextCCon .iconTextCCon1 p{
+    color: #869ab8;
+    font-size: 1.1rem;
+}
+
+body .imgIcon{
+    height: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #f1f4f5;
+}
+body .imgIcon .imgIconCon{
+    width: 1000px;
+    margin: auto;
+}
+body .imgIcon .imgIconCon .imgIconCCon{
     display: flex;
-    position: absolute;
-    display: none;
-    float: none;
 }
-body header div.menu div.menuUl li.landingsLi:hover > body header div.menu div.menuUl li.landingsLi div.conLandingsA{
-    display: block;
+body .imgIcon .imgIconCon .imgIconCCon .imgIconCCon1{
+    padding-left: 20px;
+    padding-right: 20px;
 }
-body header div.menu div.menuUl > div.conLandingsA{
-    display: block;
-    clear: both;
-    content: "";
+body .imgIcon .imgIconCon .imgIconCCon .imgIconCCon1{
+    padding-right: 20px;
 }
-body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conLeftLandingsA{
-    width: 336px;
-    height: 294px;
-    background-image: url(./img/img1.jpg);
+
+body .namePass{
+    
+    padding-top: 50px;
 }
-body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conLeftLandingsA div.insideConLeftLandingA{
-    width: 256px;
-    height: 218px;
-    padding: 2.375rem 2.5rem;
+body .namePass .namePassCon{
+    width: 1000px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+body .namePassCon .namePassCCon{
+    display: flex;
+    align-items: center;
+}
+body .namePassCCon .namePassLeft{
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 610px;
+}
+img.namePass{
+    width: 400px;
+    height: 265px;
+}
+body .namePassCCon .namePassLeft .namePassLeftCon{
+    border-radius: 0.375rem;
+    background-color: #dcdfe6;
+}
+body .namePassLeftCon .cardNamePass{
+    padding: 30px 30px 30px 30px;
+}
+body .cardNamePass .cardName{
+    height: 55px;
+    width: 330px;
+    border: 1px solid #f1f4f8;
+}
+body .cardNamePass .cardPass{
+    height: 55px;
+    width: 330px;
+    border: 1px solid #f1f4f8;
+    margin-bottom: 30px;
+}
+body .cardNamePass .cardEmail{
+    height: 55px;
+    width: 330px;
+    border: 1px solid #f1f4f8;
+}
+body .cardNamePass .aDownLoad{
+    width: 330px;
+    height: 40px;
+    background-color: #20c997;
+    text-align: center;
+    border-radius: 0.375rem;
+    padding-top: 15px;
+    
+}
+body .cardNamePass a.download{
     color: #fff;
-    text-align: center;
+    font-size: 1.1rem;
+    
 }
-body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conLeftLandingsA div.insideConLeftLandingA h4{
-    padding-top: 40px;
+body .namePassRight{
+    width: 480px;
+    padding-right: 20px;
+    padding-left: 100px;
 }
-body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conLeftLandingsA div.insideConLeftLandingA a{
-    text-decoration: none;
-    border-color: transparent;
-    background-color: #fff;
-    color: #335eea;
-    text-align: center;
-    display: block;
-    width: 200px;
-    height: 30px;
-    margin-left: 25px;
-    padding-top: 10px;
-    border: 1px solid transparent;
+body .namePassCCon .namePassRight h2{
+    font-size: 2rem;
 }
-body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conRightLandingsA{
-    width: 336px;
+body .namePassCCon .namePassRight span.namePassGreen{
+    color: #42ba96;
 }
-body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conRightLandingsA div.insideConRightLindingsA{
+body .namePassCCon .namePassRight p.namePassG{
+    color: #869ab8;  
+}
+body .namePassCCon .namePassRight p{
+    font-size: 1.3rem;
+    color: #42ba96;
+}
+img.iconV{
+    width: 12px;
+    height: 12px;
+    padding-top: 28px;
+    padding-right: 10px;
+}
+body .namePassRight .listIconNamePass{
     display: flex;
 }
-body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conRightLandingsA div.insideConRightLindingsA div.leftInsideConRightLindingsA{
-    width: 168px;
-    text-align: center;
+body .namePassRight .listIconNamePass .listIconNamePassLeft{
+    padding-right: 100px;
 }
-body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conRightLandingsA div.insideConRightLindingsA div.rightInsideConRightLindingsA{
-    width: 168px;
-    text-align: center;
-}
-body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conRightLandingsA div.insideConRightLindingsA div.leftInsideConRightLindingsA a{
-    text-decoration: none;
-}
-body header div.menu div.menuUl li.landingsLi div.conLandingsA div.conRightLandingsA div.insideConRightLindingsA div.rightInsideConRightLindingsA a{
-    text-decoration: none;
-}
-
-
-
-body header div.menu div.menuUl li.pagesLi{
-    list-style: none;
+body .namePassRight .listIconNamePass .listIconNamePassLeftTop{
     display: flex;
 }
-
+body .namePassRight .listIconNamePass .listIconNamePassLeftBottom{
+    display: flex;
+}
+body .namePassRight .listIconNamePass .listIconNamePassRightTop{
+    display: flex;
+}
+body .namePassRight .listIconNamePass .listIconNamePassRightBottom{
+    display: flex;
+}
