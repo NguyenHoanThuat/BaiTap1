@@ -120,7 +120,6 @@ body .imgIcon .imgIconCon .imgIconCCon .imgIconCCon1{
 }
 
 body .namePass{
-    
     padding-top: 50px;
 }
 body .namePass .namePassCon{
@@ -222,4 +221,85 @@ body .namePassRight .listIconNamePass .listIconNamePassRightTop{
 }
 body .namePassRight .listIconNamePass .listIconNamePassRightBottom{
     display: flex;
+}
+
+body div.perfor{
+    padding-top: 100px;
+}
+body .perfor .perforCon{
+    width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    
+}
+body .perfor .perforCon .perforCCon{
+    display: flex;
+    
+}
+body .perforCCon .perforCConLeft{
+    width: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+body .perforCConLeft h2.perfor{
+    font-size: 2rem;
+}
+body .perforCConLeft span.perforBlue{
+    color: #335eea;
+}
+body .perforCConLeft p.perfor{
+    font-size: 1.1875rem;
+    color: #869ab8;
+}
+body .perforCConLeft .iconPerfor{
+    display: flex;
+}
+img.iconPerfor{
+    width: 35px;
+    height: 35px;
+    padding-top: 22px;
+    padding-right: 10px;
+}
+h4{
+    font-size: 1.3rem;
+}
+p.textIconPerfor{
+    color: #869ab8;
+    font-size: 1.1rem;
+}
+img.perforImg{
+    width: 625px;
+    height: 470px;
+    border-radius: 0.375rem;
+    box-shadow: 25px 60px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2);
+    /* transform: translate3d(42px, 62px, -135px); */
+}
+body .perforCCon .perforCConRight{
+    width: 520px;
+}
+
+body div.table{
+    padding-top: 50px;
+}
+body .table .tableCon{
+    width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+body .tableCon .tableCCon{
+    
+}
+body .tableCCon .tableCConTop{
+    width: 655px;
+    text-align: center;
+    padding-left: 170px;
+}
+h2.table{
+    font-size: 2rem;
+}
+p.table{
+    font-size: 1.3rem;
+    color: #869ab8;
 }
