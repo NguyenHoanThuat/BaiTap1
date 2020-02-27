@@ -1,545 +1,684 @@
-body{
-    font-family: serif;
+body {
+  font-family: serif;
 }
-body .welcome{
-    height: 420px;
-    
-}   
-body .welcome .welcomeCon{
-    width: 1000px;
-    margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 100px;
+body .welcome {
+  height: 420px;
 }
-body .welcome .welcomeCon .welcomeCCon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body .welcome .welcomeCon {
+  width: 1000px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 100px;
 }
-body .welcome .welcomeCon .welcomeCCon .textWelcome{
-    width: 50%;
+body .welcome .welcomeCon .welcomeCCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-body .welcome .welcomeCon .welcomeCCon .textWelcome h1{
-    text-align: left;
-    font-size: 3rem;
+body .welcome .welcomeCon .welcomeCCon .textWelcome {
+  width: 50%;
 }
-body .welcome .welcomeCon .welcomeCCon .textWelcome h1 span{
-    color: #335eea;
+body .welcome .welcomeCon .welcomeCCon .textWelcome h1 {
+  text-align: left;
+  font-size: 3rem;
 }
-body .welcome .welcomeCon .welcomeCCon .textWelcome p{
-    font-size: 1.4rem;
-    color: #869ab8;
-    padding-bottom: 20px;
+body .welcome .welcomeCon .welcomeCCon .textWelcome h1 span {
+  color: #335eea;
 }
-body .welcome .welcomeCon .welcomeCCon .textWelcome .buttonWelcome{
-    height: 55px;
-    text-align: left;
+body .welcome .welcomeCon .welcomeCCon .textWelcome p {
+  font-size: 1.4rem;
+  color: #869ab8;
+  padding-bottom: 20px;
 }
-body .welcome .welcomeCon .welcomeCCon .textWelcome .buttonWelcome a.viewWelcome{
-    background-color: #335eea;
-    color: white;
-    height: 27px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid transparent;
-    font-size: 1.1rem;
-    border-radius: 0.375rem;
-    margin-right: 10px;
+body .welcome .welcomeCon .welcomeCCon .textWelcome .buttonWelcome {
+  height: 55px;
+  text-align: left;
 }
-body .welcome .welcomeCon .welcomeCCon .textWelcome .buttonWelcome a.documenWelcome{
-    background-color: rgba(51,94,234,.1);
-    color: #335eea;
-    height: 27px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid transparent;
-    font-size: 1.1rem;
-    border-radius: 0.375rem;
-    
+body
+  .welcome
+  .welcomeCon
+  .welcomeCCon
+  .textWelcome
+  .buttonWelcome
+  a.viewWelcome {
+  background-color: #335eea;
+  color: white;
+  height: 27px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid transparent;
+  font-size: 1.1rem;
+  border-radius: 0.375rem;
+  margin-right: 10px;
 }
-a{
-    text-decoration: none;
+body
+  .welcome
+  .welcomeCon
+  .welcomeCCon
+  .textWelcome
+  .buttonWelcome
+  a.documenWelcome {
+  background-color: rgba(51, 94, 234, 0.1);
+  color: #335eea;
+  height: 27px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid transparent;
+  font-size: 1.1rem;
+  border-radius: 0.375rem;
 }
-body .welcome .welcomeCon .welcomeCCon .imgWelcomeRight{
-    width: 50%;
-    height: 420px;
+a {
+  text-decoration: none;
+}
+body .welcome .welcomeCon .welcomeCCon .imgWelcomeRight {
+  width: 50%;
+  height: 420px;
+}
+
+body .iconText {
+  height: 180px;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #f1f4f8;
+}
+body .iconText .iconTextCon {
+  width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+body .iconText .iconTextCon .iconTextCCon {
+  display: flex;
+}
+body .iconText .iconTextCon .iconTextCCon .iconTextCCon1 {
+  width: 305px;
+  margin-right: 10px;
+}
+body .iconText .iconTextCon .iconTextCCon .iconTextCCon1 h3 {
+  font-size: 1.3125rem;
+}
+body .iconText .iconTextCon .iconTextCCon .iconTextCCon1 p {
+  color: #869ab8;
+  font-size: 1.1rem;
+}
+
+body .imgIcon {
+  height: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #f1f4f5;
+}
+body .imgIcon .imgIconCon {
+  width: 1000px;
+  margin: auto;
+}
+body .imgIcon .imgIconCon .imgIconCCon {
+  display: flex;
+}
+body .imgIcon .imgIconCon .imgIconCCon .imgIconCCon1 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body .imgIcon .imgIconCon .imgIconCCon .imgIconCCon1 {
+  padding-right: 20px;
+}
+
+body .namePass {
+  padding-top: 50px;
+}
+body .namePass .namePassCon {
+  width: 1000px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body .namePassCon .namePassCCon {
+  display: flex;
+  align-items: center;
+}
+body .namePassCCon .namePassLeft {
+  width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 610px;
+}
+img.namePass {
+  width: 400px;
+  height: 265px;
+}
+body .namePassCCon .namePassLeft .namePassLeftCon {
+  border-radius: 0.375rem;
+  background-color: #dcdfe6;
+}
+body .namePassLeftCon .cardNamePass {
+  padding: 30px 30px 30px 30px;
+}
+body .cardNamePass .cardName {
+  height: 55px;
+  width: 330px;
+  border: 1px solid #f1f4f8;
+}
+body .cardNamePass .cardPass {
+  height: 55px;
+  width: 330px;
+  border: 1px solid #f1f4f8;
+  margin-bottom: 30px;
+}
+body .cardNamePass .cardEmail {
+  height: 55px;
+  width: 330px;
+  border: 1px solid #f1f4f8;
+}
+body .cardNamePass .aDownLoad {
+  width: 330px;
+  height: 40px;
+  background-color: #20c997;
+  text-align: center;
+  border-radius: 0.375rem;
+  padding-top: 15px;
+}
+body .cardNamePass a.download {
+  color: #fff;
+  font-size: 1.1rem;
+}
+body .namePassRight {
+  width: 480px;
+  padding-right: 20px;
+  padding-left: 100px;
+}
+body .namePassCCon .namePassRight h2 {
+  font-size: 2rem;
+}
+body .namePassCCon .namePassRight span.namePassGreen {
+  color: #42ba96;
+}
+body .namePassCCon .namePassRight p.namePassG {
+  color: #869ab8;
+}
+body .namePassCCon .namePassRight p {
+  font-size: 1.3rem;
+  color: #42ba96;
+}
+img.iconV {
+  width: 12px;
+  height: 12px;
+  padding-top: 28px;
+  padding-right: 10px;
+}
+body .namePassRight .listIconNamePass {
+  display: flex;
+}
+body .namePassRight .listIconNamePass .listIconNamePassLeft {
+  padding-right: 100px;
+}
+body .namePassRight .listIconNamePass .listIconNamePassLeftTop {
+  display: flex;
+}
+body .namePassRight .listIconNamePass .listIconNamePassLeftBottom {
+  display: flex;
+}
+body .namePassRight .listIconNamePass .listIconNamePassRightTop {
+  display: flex;
+}
+body .namePassRight .listIconNamePass .listIconNamePassRightBottom {
+  display: flex;
+}
+
+body div.perfor {
+  padding-top: 100px;
+}
+body .perfor .perforCon {
+  width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+body .perfor .perforCon .perforCCon {
+  display: flex;
+}
+body .perforCCon .perforCConLeft {
+  width: 480px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body .perforCConLeft h2.perfor {
+  font-size: 2rem;
+}
+body .perforCConLeft span.perforBlue {
+  color: #335eea;
+}
+body .perforCConLeft p.perfor {
+  font-size: 1.1875rem;
+  color: #869ab8;
+}
+body .perforCConLeft .iconPerfor {
+  display: flex;
+}
+img.iconPerfor {
+  width: 35px;
+  height: 35px;
+  padding-top: 22px;
+  padding-right: 10px;
+}
+h4 {
+  font-size: 1.3rem;
+}
+p.textIconPerfor {
+  color: #869ab8;
+  font-size: 1.1rem;
+}
+img.perforImg {
+  width: 625px;
+  height: 470px;
+  border-radius: 0.375rem;
+  box-shadow: 25px 60px 125px -25px rgba(80, 102, 144, 0.1),
+    16px 40px 75px -40px rgba(0, 0, 0, 0.2);
+  /* transform: translate3d(42px, 62px, -135px); */
+}
+body .perforCCon .perforCConRight {
+  width: 520px;
+}
+
+body div.table {
+  padding-top: 50px;
+}
+body .table .tableCon {
+  width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+body .tableCon .tableCCon {
+  width: 1000px;
+}
+body .tableCCon .tableCConTop {
+  width: 655px;
+  text-align: center;
+  padding-left: 170px;
+}
+h2.table {
+  font-size: 2rem;
+}
+p.table {
+  font-size: 1.3rem;
+  color: #869ab8;
+}
+.tableCConBottomCCon {
+  width: 1000px;
+  height: 350px;
+  display: flex;
+}
+img.tableBottomLeft {
+  width: 500px;
+  height: 350px;
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+img.tableBottomRight {
+  width: 150px;
+  height: 55px;
+}
+p.tableBRightBottom {
+  font-size: 1.3rem;
+}
+span.tableBRightBottom {
+  font-size: 1.3rem;
+  color: #869ab8;
+}
+.tableBottomRight {
+  text-align: center;
+}
+.tableBottomRightCon {
+  padding-top: 70px;
+}
+.tableBRigthTop {
+  padding-bottom: 20px;
+}
+.tableBRightBottom {
+  padding: 0 10px 10px 10px;
+}
+
+body div.stay {
+  padding-top: 50px;
+}
+.stayCon {
+  width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+.stayCCon {
+  display: flex;
+}
+img.stay {
+  height: 315px;
+  width: 480px;
+}
+h2 {
+  font-size: 2rem;
+}
+span.stay {
+  color: #335eea;
+}
+p.stay {
+  font-size: 1.3rem;
+  color: #869ab8;
+}
+.stayLeft {
+  width: 480px;
+  padding: 0 20px 0 20px;
+}
+.stayRight {
+  width: 480px;
+  padding: 0 20px 0 20px;
+}
+.stayLeftCon {
+  display: flex;
+  width: 480px;
+}
+.stayLeftCon1 {
+  text-align: center;
+  padding-right: 20px;
+}
+.borderColor {
+  background-color: #869ab8;
+  width: 1px;
+  height: 60px;
+  margin-top: 20px;
+}
+.stayLeftCon2 {
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.stayLeftCon3 {
+  text-align: center;
+  padding-left: 20px;
+}
+
+div.fair {
+  padding-top: 40px;
+}
+.fairCon {
+  width: 1000px;
+  padding: 0 20px 0 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.fairCCon {
+  padding-left: 150px;
+}
+.fairTop {
+  width: 700px;
+  text-align: center;
+}
+
+h1.fair {
+  font-size: 2.3125rem;
+}
+p.fair {
+  font-size: 1.3rem;
+  color: #869ab8;
+}
+div.fairButton {
+  display: inline-flex;
+}
+span.textFair {
+  font-size: 1.3rem;
+  color: #869ab8;
+}
+div.fairBottom {
+  width: 1000px;
+  padding: 50px 20px 0 0;
+  margin: auto;
+  display: flex;
+  margin-left: -149px;
+}
+div.fairBLeft {
+  background-color: #eaf1ef;
+  width: 500px;
+  border-radius: 0.375rem;
+}
+div.fairBLeftCon {
+  padding-top: 40px;
+  width: 500px;
+  text-align: center;
+}
+div.fairBLeftCCon {
+  width: 500px;
+}
+span.fair1 {
+  padding: 10px 20px 10px 20px;
+  color: #335eea;
+  background-color: rgba(51, 94, 234, 0.1);
+  font-size: 0.75rem;
+  border-radius: 0.375rem;
+}
+div.fair2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.fair21 {
+  font-size: 1.9375rem;
+}
+span.fair22 {
+  font-size: 3.8125rem;
+}
+span.fair23 {
+  font-size: 1.9375rem;
+}
+span.fair3 {
+  color: #869ab8;
+  font-size: 1.2175rem;
+  padding-bottom: 20px;
+}
+div.fair-aa {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+div.fair-a {
+  display: flex;
+  padding-left: 70px;
+}
+div.iconFair {
+  padding-top: 22px;
+  padding-right: 20px;
+}
+i {
+  padding: 2px 2px 2px 2px;
+  color: #42ba96;
+  background-color: #dbf3eb;
+  border-radius: 0.575rem;
+}
+p.textIconFair {
+  font-size: 1.2175rem;
+}
+div.buttonFairBL {
+  width: 500px;
+  background-color: #335eea;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  border-radius: 0 0 0.375rem 0.375rem;
+}
+a.buttonFairBL {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+div.fairBRight {
+  width: 500px;
+  border-radius: 0.375rem;
+  height: 571px;
+  background-color: rgb(246, 248, 250);
+  margin: 50px 0 50px 0;
+}
+div.fairBRightCon {
+  margin-top: 100px;
+  width: 500px;
+  text-align: center;
+}
+.fairBRightCCon {
+  padding: 0 50px 0 50px;
+}
+span.fair4 {
+  color: #869ab8;
+  font-size: 1.5125rem;
+}
+div.buttonFairBR {
+  margin-top: 167px;
+  width: 500px;
+  background-color: #d9e2ef;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  border-radius: 0 0 0.375rem 0.375rem;
+}
+a.buttonFairBR {
+  color: #506690;
+  font-size: 1.5rem;
 }
 
 
-body .iconText{
-    height: 180px;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    border-bottom: 1px solid #f1f4f8;
-}
-body .iconText .iconTextCon{
-    width: 1000px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: auto;
-}
-body .iconText .iconTextCon .iconTextCCon{
-    display: flex;
-}
-body .iconText .iconTextCon .iconTextCCon .iconTextCCon1{
-    width: 305px;
-    margin-right: 10px;
-}
-body .iconText .iconTextCon .iconTextCCon .iconTextCCon1 h3{
-    font-size: 1.3125rem;;
-}
-body .iconText .iconTextCon .iconTextCCon .iconTextCCon1 p{
-    color: #869ab8;
-    font-size: 1.1rem;
-}
-
-body .imgIcon{
-    height: 50px;
+.canI{
     padding-top: 50px;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #f1f4f5;
 }
-body .imgIcon .imgIconCon{
+.canICon{
     width: 1000px;
     margin: auto;
+    padding: 0 20px 0 20px;
 }
-body .imgIcon .imgIconCon .imgIconCCon{
+.canICCon{
     display: flex;
 }
-body .imgIcon .imgIconCon .imgIconCCon .imgIconCCon1{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-body .imgIcon .imgIconCon .imgIconCCon .imgIconCCon1{
-    padding-right: 20px;
-}
-
-body .namePass{
-    padding-top: 50px;
-}
-body .namePass .namePassCon{
-    width: 1000px;
-    margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-}
-body .namePassCon .namePassCCon{
-    display: flex;
-    align-items: center;
-}
-body .namePassCCon .namePassLeft{
-    width: 400px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 610px;
-}
-img.namePass{
-    width: 400px;
-    height: 265px;
-}
-body .namePassCCon .namePassLeft .namePassLeftCon{
-    border-radius: 0.375rem;
-    background-color: #dcdfe6;
-}
-body .namePassLeftCon .cardNamePass{
-    padding: 30px 30px 30px 30px;
-}
-body .cardNamePass .cardName{
-    height: 55px;
-    width: 330px;
-    border: 1px solid #f1f4f8;
-}
-body .cardNamePass .cardPass{
-    height: 55px;
-    width: 330px;
-    border: 1px solid #f1f4f8;
-    margin-bottom: 30px;
-}
-body .cardNamePass .cardEmail{
-    height: 55px;
-    width: 330px;
-    border: 1px solid #f1f4f8;
-}
-body .cardNamePass .aDownLoad{
-    width: 330px;
-    height: 40px;
-    background-color: #20c997;
-    text-align: center;
-    border-radius: 0.375rem;
-    padding-top: 15px;
-    
-}
-body .cardNamePass a.download{
-    color: #fff;
-    font-size: 1.1rem;
-    
-}
-body .namePassRight{
-    width: 480px;
-    padding-right: 20px;
-    padding-left: 100px;
-}
-body .namePassCCon .namePassRight h2{
-    font-size: 2rem;
-}
-body .namePassCCon .namePassRight span.namePassGreen{
-    color: #42ba96;
-}
-body .namePassCCon .namePassRight p.namePassG{
-    color: #869ab8;  
-}
-body .namePassCCon .namePassRight p{
-    font-size: 1.3rem;
-    color: #42ba96;
-}
-img.iconV{
-    width: 12px;
-    height: 12px;
-    padding-top: 28px;
-    padding-right: 10px;
-}
-body .namePassRight .listIconNamePass{
-    display: flex;
-}
-body .namePassRight .listIconNamePass .listIconNamePassLeft{
-    padding-right: 100px;
-}
-body .namePassRight .listIconNamePass .listIconNamePassLeftTop{
-    display: flex;
-}
-body .namePassRight .listIconNamePass .listIconNamePassLeftBottom{
-    display: flex;
-}
-body .namePassRight .listIconNamePass .listIconNamePassRightTop{
-    display: flex;
-}
-body .namePassRight .listIconNamePass .listIconNamePassRightBottom{
-    display: flex;
-}
-
-body div.perfor{
-    padding-top: 100px;
-}
-body .perfor .perforCon{
-    width: 1000px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: auto;
-    
-}
-body .perfor .perforCon .perforCCon{
-    display: flex;
-    
-}
-body .perforCCon .perforCConLeft{
-    width: 480px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-body .perforCConLeft h2.perfor{
-    font-size: 2rem;
-}
-body .perforCConLeft span.perforBlue{
-    color: #335eea;
-}
-body .perforCConLeft p.perfor{
-    font-size: 1.1875rem;
-    color: #869ab8;
-}
-body .perforCConLeft .iconPerfor{
-    display: flex;
-}
-img.iconPerfor{
-    width: 35px;
-    height: 35px;
-    padding-top: 22px;
-    padding-right: 10px;
-}
-h4{
-    font-size: 1.3rem;
-}
-p.textIconPerfor{
-    color: #869ab8;
-    font-size: 1.1rem;
-}
-img.perforImg{
-    width: 625px;
-    height: 470px;
-    border-radius: 0.375rem;
-    box-shadow: 25px 60px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2);
-    /* transform: translate3d(42px, 62px, -135px); */
-}
-body .perforCCon .perforCConRight{
-    width: 520px;
-}
-
-body div.table{
-    padding-top: 50px;
-}
-body .table .tableCon{
-    width: 1000px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: auto;
-}
-body .tableCon .tableCCon{
-    width: 1000px;
-}
-body .tableCCon .tableCConTop{
-    width: 655px;
-    text-align: center;
-    padding-left: 170px;
-}
-h2.table{
-    font-size: 2rem;
-}
-p.table{
-    font-size: 1.3rem;
-    color: #869ab8;
-}
-.tableCConBottomCCon{
-    width: 1000px;
-    height: 350px;
-    display: flex;
-}
-img.tableBottomLeft{
+.canILeft{
     width: 500px;
-    height: 350px;
-    border-radius: 0.375rem 0 0 .375rem;
+    padding: 0 20px 0 0px;
 }
-img.tableBottomRight{
-    width: 150px;
-    height: 55px;
+.canILTop{
+    display: flex;
 }
-p.tableBRightBottom{
-    font-size: 1.3rem;
+.iconCanI{
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 1rem;
 }
-span.tableBRightBottom{
-    font-size: 1.3rem;
+h4.textIconCanI{
+    color: #335eea;
+    font-size: 1.1875rem;
+}
+p.textIconCanI{
     color: #869ab8;
+    font-size: 1.1rem;
 }
-.tableBottomRight{
-    text-align: center;
-    
-}
-.tableBottomRightCon{
-    padding-top: 70px;
-}
-.tableBRigthTop{
-    padding-bottom: 20px;
-    
-}
-.tableBRightBottom{
-    padding: 0 10px 10px 10px;
-}
+.canILBottom{
+    display: flex;
 
-
-body div.stay{
-    padding-top: 50px;
 }
-.stayCon{
-    width: 1000px;
+.canIRight{
+    width: 500px;
     padding-left: 20px;
-    padding-right: 20px;
+}
+
+
+div.getSave{
+    padding: 100px 0 100px 0;
+}
+div.getSaveCon{
+    width: 1000px;
+    padding: 0 20px 0 20px;
     margin: auto;
 }
-.stayCCon{
-    display: flex;
-}
-img.stay{
-    height: 315px;
-    width: 480px;
-}
-h2{
-    font-size: 2rem;
-}
-span.stay{
-    color: #335eea;
-}
-p.stay{
-    font-size: 1.3rem;
-    color: #869ab8;
-}
-.stayLeft{
-    width: 480px;
-    padding: 0 20px 0 20px;
-}
-.stayRight{
-    width: 480px;
-    padding: 0 20px 0 20px;
-}
-.stayLeftCon{
-    display: flex;
-    width: 480px;
-}
-.stayLeftCon1{
+.getSaveCCon{
     text-align: center;
-    padding-right: 20px;
-}
-.borderColor{
-    background-color: #869ab8;
-    width: 1px;
-    height: 60px;
-    margin-top: 20px;
-}
-.stayLeftCon2{
-    text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-.stayLeftCon3{
-    text-align: center;
-    padding-left: 20px;
-}
-
-
-div.fair{
-    padding-top: 40px;
-}
-.fairCon{
-    width: 1000px;
-    padding: 0 20px 0 20px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.fairCCon{
-    padding-left: 150px;
     
 }
-.fairTop{
+.getSaveCenter{
     width: 700px;
-    text-align: center;
+    margin: auto;
+}
+span.getSave{
+    background-color: rgba(80,102,144,.1);
+    border-radius: .375rem;
+    padding: 5px 10px 5px 10px;
+    color: #506690;
+    font-size: .95rem;
+}
+h1.getSave{
+    color: #506690;
+    font-size: 2.6875rem;
+}
+p.getSave{
+    color: #506690;
+    font-size: 1.1875rem;
+    padding-bottom: 20px;
+}
+a.getSave{
+    border-radius: .375rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #20c997;
+    padding: 20px 30px 20px 30px;
+}
+i.getSave{
+    color: #fff;
+    background-color: #20c997;
 }
 
-h1.fair{
-    font-size: 2.3125rem;
+.diaChi{
+    padding: 0;
 }
-p.fair{
-    font-size: 1.3rem;
-    color: #869ab8;
+.diaChiCon{
+    width: 1000px;
+    padding: 0 20px 0 20px;
+    margin: auto;
 }
-div.fairButton{
+.diaChiCCon{
     display: inline-flex;
 }
-span.textFair{
-    font-size: 1.3rem;
-    color: #869ab8; 
+div.diaChi-1{
+    width: 220px;
+    padding: 0 20px 0 100px;
 }
-div.fairBottom{
-    width: 1000px;
-    padding: 50px 20px 0 0;
-    margin: auto;
-    display: flex;
-    margin-left: -149px;
-}
-div.fairBLeft{
-    background-color: #eaf1ef;
-    width: 500px;
-    border-radius: .375rem;
-}
-div.fairBLeftCon{
-    padding-top: 40px;
-    width: 500px;
-    text-align: center;
-}
-div.fairBLeftCCon{
-    width: 500px;
-    
-}
-span.fair1{
-    padding: 10px 20px 10px 20px;
-    color: #335eea;
-    background-color: rgba(51,94,234,.1);
-    font-size: .75rem;
-    border-radius: .375rem;
-}
-div.fair2{
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-.fair21{
-    font-size: 1.9375rem;
-}
-span.fair22{
-    font-size: 3.8125rem;
-}
-span.fair23{
-    font-size: 1.9375rem;
-}
-span.fair3{
-    color: #869ab8;
-    font-size: 1.2175rem;
-    padding-bottom: 20px;
-}
-div.fair-aa{
-    padding-top: 50px;
-    padding-bottom: 70px;
-}
-div.fair-a{
-    display: flex;
-    padding-left: 70px;
-}
-div.iconFair{
-    padding-top: 22px;
-    padding-right: 20px;
-}
-i{
-    padding: 2px 2px 2px 2px;
-    color: #42ba96;
-    background-color: #dbf3eb;
-    border-radius: .575rem;
-}
-p.textIconFair{
-    font-size: 1.2175rem;
-}
-div.buttonFairBL{
-    width: 500px;
-    background-color: #335eea;
-    text-align: center;
-    padding: 20px 0 20px 0;
-    border-radius: 0 0 .375rem .375rem;
-}
-a.buttonFairBL{
-    color: #fff;
-    font-size: 1.5rem;
-}
-
-div.fairBRight{
-    width: 500px;
-    border-radius: .375rem;
-    height: 571px;
-    background-color: rgb(246, 248, 250);
-    margin: 50px 0 50px 0;
-}
-div.fairBRightCon{
-    margin-top: 100px;
-    width: 500px;
-    text-align: center;
-    
-}
-.fairBRightCCon{
-    padding: 0 50px 0 50px;
-    
-}
-span.fair4{
-    color: #869ab8;
-    font-size: 1.5125rem;
-}
-div.buttonFairBR{
-    margin-top: 167px;
-    width: 500px;
-    background-color: #d9e2ef;
-    text-align: center;
-    padding: 20px 0 20px 0;
-    border-radius: 0 0 .375rem .375rem;
-}
-a.buttonFairBR{
+p.diaChi-1{
     color: #506690;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+}
+ul.diaChi-1{
+    display: flex;
+    padding-inline-start: 10px;
+}
+ul{
+    list-style: none;
+    
+}
+li.diaChi-1{
+    padding: 0 5px 0 5px;
+}
+i.diaChi-1{
+    color: #506690;
+    font-size: 2rem;
+    background-color: #fff;
+}
+div.diaChi-2{
+    padding: 0 20px 0 20px;
+}
+h6.diaChi-2{
+    color: #506690;
+    font-size: 1rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+ul.diaChi-2{
+    padding-inline-start: 5px;
+}
+li.diaChi-2{
+    padding-bottom: 15px;
+    font-size: 1rem;
+    color: #869ab8;
+}
+li.diaChi-2:hover{
+    text-decoration: underline;
 }
